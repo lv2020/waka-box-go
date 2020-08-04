@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       UPDATE_OPTION: MARKDOWN
-      MARKDOWN_FILE: https://github.com/lv2020/lv2020/blob/master/README.md
+      MARKDOWN_FILE: README.md
       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       GIST_ID: 9bc7025496e478f439b9cd43eba989a4
